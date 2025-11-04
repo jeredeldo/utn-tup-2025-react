@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pasta Carbonara",
+    "descripcion": "Receta clásica italiana de pasta con salsa cremosa de huevo y panceta. Un plato auténtico de Roma que combina ingredientes simples de forma magistral.",
+    "imagen": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "30 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "400", "unidad": "g", "nombre": "Spaghetti" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Panceta o tocino" },
+      { "cantidad": "4", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Queso parmesano rallado" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Pimienta negra" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
+    ],
+    "pasos": [
+      "Cocinar la pasta en agua hirviendo con sal hasta que esté al dente (unos 10-12 minutos)",
+      "Mientras tanto, cortar la panceta en cubos pequeños y dorarla en una sartén a fuego medio",
+      "Batir los huevos en un recipiente con el queso parmesano rallado, pimienta y sal",
+      "Escurrir la pasta reservando aproximadamente 1 taza del agua de cocción",
+      "Mezclar la pasta caliente con la panceta fuera del fuego en la sartén",
+      "Agregar rápidamente la mezcla de huevo y queso, removiendo constantemente",
+      "Si es necesario, agregar un poco del agua de cocción para crear una salsa cremosa",
+      "Servir inmediatamente en platos calientes con más queso parmesano y pimienta al gusto"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada César",
+    "descripcion": "Ensalada fresca con lechuga romana, crutones caseros y aderezo césar tradicional. Ligera pero satisfactoria, perfecta como entrada o almuerzo.",
+    "imagen": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "20 minutos",
+    "dificultad": "Fácil",
+    "porciones": 2,
+    "categoria": "Ensaladas",
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Lechuga romana grande" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Pechuga de pollo cocida" },
+      { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano en lascas" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Crutones caseros" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Aderezo césar" },
+      { "cantidad": "1", "unidad": "cucharadita", "nombre": "Limón exprimido" }
+    ],
+    "pasos": [
+      "Lavar y secar cuidadosamente la lechuga romana",
+      "Cortar la lechuga en trozos medianos y colocar en un bowl grande",
+      "Cocinar la pechuga de pollo a la plancha con sal y pimienta, luego cortarla en tiras",
+      "En un bowl grande, mezclar la lechuga con el aderezo césar",
+      "Agregar el pollo en tiras, crutones y las lascas de queso parmesano",
+      "Rociar con jugo de limón fresco",
+      "Mezclar bien y servir inmediatamente"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Pizza Margherita",
+    "descripcion": "Pizza tradicional italiana con tomate fresco, mozzarella y albahaca. Sencilla pero deliciosa, representa la autenticidad culinaria italiana.",
+    "imagen": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "45 minutos",
+    "dificultad": "Media",
+    "porciones": 2,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Harina para pizza" },
+      { "cantidad": "10", "unidad": "g", "nombre": "Levadura seca" },
+      { "cantidad": "300", "unidad": "ml", "nombre": "Agua tibia" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Tomates frescos" },
+      { "cantidad": "250", "unidad": "g", "nombre": "Queso mozzarella" },
+      { "cantidad": "8", "unidad": "hojas", "nombre": "Albahaca fresca" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Aceite de oliva" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal y pimienta" }
+    ],
+    "pasos": [
+      "Mezclar la harina, levadura y sal en un recipiente",
+      "Hacer un pozo en el centro y agregar el agua tibia y aceite de oliva",
+      "Amasar durante 10 minutos hasta obtener una masa suave y elástica",
+      "Dejar reposar la masa cubierta durante 30 minutos",
+      "Precalentar el horno a 250°C",
+      "Estirar la masa en una bandeja de pizza enharinada",
+      "Distribuir los tomates frescos cortados sobre la masa",
+      "Agregar la mozzarella en trozos",
+      "Hornear durante 15-20 minutos hasta que la corteza esté dorada",
+      "Sacar del horno, añadir albahaca fresca y rociar con aceite de oliva"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Salmón a la Mantequilla",
+    "descripcion": "Filete de salmón cocido en mantequilla aromática con hierbas. Elegante, saludable y listo en menos de 30 minutos. Perfecto para una cena especial.",
+    "imagen": "https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "25 minutos",
+    "dificultad": "Media",
+    "porciones": 2,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "2", "unidad": "filetes", "nombre": "Salmón fresco (200g c/u)" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Mantequilla" },
+      { "cantidad": "3", "unidad": "dientes", "nombre": "Ajo picado" },
+      { "cantidad": "4", "unidad": "ramas", "nombre": "Tomillo fresco" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Limón" },
+      { "cantidad": "100", "unidad": "ml", "nombre": "Vino blanco" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal y pimienta" }
+    ],
+    "pasos": [
+      "Secar bien los filetes de salmón con papel de cocina",
+      "Sazonar con sal y pimienta al gusto",
+      "Calentar una sartén grande a fuego medio-alto",
+      "Colocar el salmón con la piel hacia abajo, cocinar 4-5 minutos",
+      "Voltear y cocinar 2-3 minutos más",
+      "Agregar mantequilla, ajo y tomillo a la sartén",
+      "Verter el vino blanco y el jugo de limón",
+      "Cocinar 2 minutos más hasta que el salmón esté tierno",
+      "Servir el salmón con la salsa de mantequilla y acompañamientos"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Brownies de Chocolate",
+    "descripcion": "Delicioso brownie de chocolate intenso y fudgy. Postre clásico que satisface los antojos de chocolate con su textura suave y crujiente al mismo tiempo.",
+    "imagen": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "50 minutos",
+    "dificultad": "Fácil",
+    "porciones": 12,
+    "categoria": "Postres",
+    "ingredientes": [
+      { "cantidad": "200", "unidad": "g", "nombre": "Chocolate amargo" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Mantequilla" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Azúcar" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "1", "unidad": "cucharadita", "nombre": "Vainilla" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
+    ],
+    "pasos": [
+      "Precalentar el horno a 180°C",
+      "Derretir el chocolate y la mantequilla en baño maría",
+      "Dejar enfriar un poco y mezclar con el azúcar",
+      "Batir los huevos e incorporarlos a la mezcla",
+      "Agregar la vainilla y la sal",
+      "Tamizar la harina e integrarla suavemente",
+      "Verter en un molde engrasado de 20x20 cm",
+      "Hornear durante 25-30 minutos (el centro debe quedar un poco húmedo)",
+      "Dejar enfriar completamente en el molde",
+      "Cortar en porciones y servir"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Tacos al Pastor",
+    "descripcion": "Tacos mexicanos auténticos con carne marinada en especias y piña. Delicioso balance de sabores dulces, picantes y ahumados en cada bocado.",
+    "imagen": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&h=400&fit=crop",
+    "tiempoPreparacion": "40 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "600", "unidad": "g", "nombre": "Carne de cerdo (chuletas finas)" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Achiote (pasta de achiote)" },
+      { "cantidad": "3", "unidad": "dientes", "nombre": "Ajo" },
+      { "cantidad": "2", "unidad": "cucharadas", "nombre": "Vinagre blanco" },
+      { "cantidad": "1", "unidad": "cucharada", "nombre": "Comino" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Piña fresca picada" },
+      { "cantidad": "12", "unidad": "unidades", "nombre": "Tortillas de maíz" },
+      { "cantidad": "1", "unidad": "ramo", "nombre": "Cilantro fresco" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Cebolla morada" }
+    ],
+    "pasos": [
+      "Preparar el marinado: mezclar achiote, ajo, vinagre y comino en un molcajete",
+      "Cortar la carne en láminas delgadas",
+      "Marinar la carne en la mezcla durante mínimo 30 minutos",
+      "Calentar una plancha o sartén a fuego alto",
+      "Cocinar la carne marinada hasta que esté bien dorada (aproximadamente 5-7 minutos)",
+      "Agregar la piña fresca picada en los últimos minutos de cocción",
+      "Calentar las tortillas en una sartén sin aceite",
+      "Armar los tacos con la carne, piña, cilantro y cebolla morada",
+      "Servir inmediatamente con salsa al lado"
+    ]
+  }
+]
