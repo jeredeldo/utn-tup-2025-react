@@ -18,7 +18,8 @@ import {
   List,
   ListItem,
   ListItemButton,
-  ListItemText
+  ListItemText,
+  Chip,
 } from '@mui/material';
 import { useNavigate, useLocation } from 'react-router-dom';
 import {
@@ -31,13 +32,18 @@ import {
   FilterList as FilterListIcon,
   Menu as MenuIcon,
   Close as CloseIcon,
+  Person as PersonIcon,
+  Logout as LogoutIcon,
+  Dashboard as DashboardIcon,
 } from '@mui/icons-material';
 import { useRecetas } from '../../contexts/RecetasContext';
+import { useAuth } from '../../contexts/AuthContext';
 import { useState } from 'react';
 
 export default function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
+  const { user, logout } = useAuth();
   const {
     searchTerm,
     setSearchTerm,
@@ -54,6 +60,7 @@ export default function Navbar() {
 
   const [anchorCategoria, setAnchorCategoria] = useState(null);
   const [anchorDificultad, setAnchorDificultad] = useState(null);
+  const [anchorUser, setAnchorUser] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const isMobile = useMediaQuery('(max-width:600px)');
   const categorias = getCategorias();
@@ -86,6 +93,19 @@ export default function Navbar() {
     setMobileMenuOpen(false);
   };
 
+  const handleLogout = () => {
+    logout();
+    setAnchorUser(null);
+    navigate('/login', { replace: true });
+  };
+
+  const handleUserMenuOpen = (event) => {
+    setAnchorUser(event.currentTarget);
+  };
+
+  const handleUserMenuClose = () => {
+    setAnchorUser(null);
+  };
   const menuItems = [
     { label: 'Inicio', path: '/' },
     { label: 'Recetas', path: '/recetas' },
@@ -276,6 +296,40 @@ export default function Navbar() {
                   {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
                 </IconButton>
               </Tooltip>
+
+              {/* User Menu */}
+              {user && (
+                <>
+                  <Tooltip title="Mi Sesión">
+                    <Button
+                      onClick={handleUserMenuOpen}
+                      startIcon={<PersonIcon />}
+                      size="small"
+                      variant="outlined"
+                    >
+                      {user.fullName}
+                    </Button>
+                  </Tooltip>
+                  <Menu
+                    anchorEl={anchorUser}
+                    open={Boolean(anchorUser)}
+                    onClose={handleUserMenuClose}
+                  >
+                    <MenuItem disabled>
+                      <PersonIcon sx={{ mr: 1 }} /> {user.username}
+                    </MenuItem>
+                    <MenuItem onClick={() => { navigate('/dashboard'); handleUserMenuClose(); }}>
+                      <DashboardIcon sx={{ mr: 1 }} /> Dashboard
+                    </MenuItem>
+                    <MenuItem disabled>
+                      Email: {user.email}
+                    </MenuItem>
+                    <MenuItem onClick={handleLogout}>
+                      <LogoutIcon sx={{ mr: 1 }} /> Logout
+                    </MenuItem>
+                  </Menu>
+                </>
+              )}
             </Stack>
           )}
 
